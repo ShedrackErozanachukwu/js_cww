@@ -1,16 +1,18 @@
-console.log("Hello");
-
-let myclass = "John"; // 'class is a reserved word
-
-console.log(myclass);
-
-const myArr = [1, 2, true, false, "love", "hate", ["a", "b", "c"]];
-
-const myObj = {
-  key1: "fix",
-  key2: "fix",
+const bioData = {
+  proficiency: {
+    HTML: "Advanced",
+    CSS: "Intermediate",
+    JavaScript: "Advanced",
+    Tailwind: "Beginner"
+  },
+  javascriptStrengths: [
+    "DOM manipulation",
+    "Event handling",
+    "ES6+ features (let, const, arrow functions, destructuring)",
+    "Functions and scope",
+    "Array methods (map, filter, reduce)",
+    "Async programming (Promises, async/await)",
+    "API calls using fetch",
+    "Object-oriented programming"
+  ]
 };
-
-let integerNumber = 42; //Integer
-let decimalNumber = 3.14; //Decimal (floating-point)
-let negativeNumber = -7; //Negative number
